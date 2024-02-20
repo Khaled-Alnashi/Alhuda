@@ -1,0 +1,12 @@
+.goals-main ul{
+    background-color:var(--color-dark);
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
+    padding: var(--padding-primary);
+}
+
+@media (max-width: 768px) {
+    .goals-main ul {
+        padding: calc(var(--padding-primary)/5);
+    }
+}

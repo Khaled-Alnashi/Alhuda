@@ -1,0 +1,18 @@
+li {
+    font-size: 20px;
+    font-weight: var(--font-weight-normal);
+    padding: 0;
+    max-width: 1000px;
+}
+
+@media (max-width: 768px) {
+    li {
+        padding: calc(var(--padding-primary)/5);
+    }
+
+    li {
+        font-size: smaller;
+        padding: 5px;
+    }
+
+}

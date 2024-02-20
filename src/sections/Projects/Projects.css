@@ -1,0 +1,11 @@
+.projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+@media (max-width: 992px) {
+    .projects {
+        justify-content: space-around;
+    }
+}

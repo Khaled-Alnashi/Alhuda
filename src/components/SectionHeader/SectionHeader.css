@@ -1,0 +1,39 @@
+.section-header  {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section-header h4::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    right: 46%;
+    height: 2px;
+    width:8% ;
+    background-color: var(--color-primary);
+}
+.section-header h4 {
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 2px;
+    align-items: center;
+}
+.section-header h4 em {
+    font-style: normal;
+    color: var(--color-primary);
+    
+}
+@media (max-width: 768px) {
+    .section-header h4::after {
+        top: 30px;
+        right: 40%;
+        height: 2px;
+        width: 20%;
+    }
+    .section-header h4 {
+        font-size: 17px;
+        font-weight: var(--font-weight-normal);
+        letter-spacing:0px;
+    }
+
+}

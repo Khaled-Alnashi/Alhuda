@@ -1,3 +1,5 @@
 export { default as Home } from './Home/Home' 
 export { default as AllTeams } from './AllTeams/AllTeams'
 export { default as Activities } from './Activities/Activities'
+export { default as Centers } from './Centers/Centers'
+export { default as Dates } from './Dates/Dates'

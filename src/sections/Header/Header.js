@@ -29,8 +29,8 @@ const Header = () => {
                             <ul className="dropdown-menu">
                                 <li><Link to="/activities" className="dropdown-item ">أنشطتنا</Link></li>
                                 <li><Link to="/all-teams" className="dropdown-item ">الفريق</Link></li>
-                                <li><Link to="/#" className="dropdown-item ">مراكزنا </Link></li>
-                                <li><Link to="/#" className="dropdown-item ">التقويم </Link></li>
+                                <li><Link to="/centers" className="dropdown-item ">مراكزنا </Link></li>
+                                <li><Link to="/dates" className="dropdown-item ">التقويم </Link></li>
                             </ul>
                         </NavItemDropDown>
                         <NavItem><Link to="/#" className="nav-link ">التسجيل</Link></NavItem>

@@ -1,5 +1,4 @@
 import './ActivitiesCard.css'
-import { SecondaryButton } from '../index'
 
 const ActivitiesCard = (props) => {
     return (
@@ -7,7 +6,6 @@ const ActivitiesCard = (props) => {
             <ul>
                 <li><h3>{props.title}</h3><span>{props.date_added}</span></li>
                 <li><p>{props.text}</p></li>
-                <SecondaryButton >متابعة القراءة  </SecondaryButton>
             </ul>
         </div>
     )

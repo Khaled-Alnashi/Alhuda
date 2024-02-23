@@ -20,19 +20,19 @@ const AllTeams = () => {
     return (
         <div className='open'>
             <SectionWrapper >
-                <SectionHeader>معلمين فرع KTV</SectionHeader>
+                <SectionHeader>معلمين مركز KTV</SectionHeader>
                 <div className='all-teams'>
                     {KTV} 
                 </div> 
             </SectionWrapper>
             <SectionWrapper>
-            <SectionHeader>معلمين فرع Evershagen</SectionHeader>
+            <SectionHeader>معلمين مركز Evershagen</SectionHeader>
                 <div className='all-teams'>
                     {Evershagen} 
                 </div>  
             </SectionWrapper>
             <SectionWrapper>
-            <SectionHeader>معلمين فرع Groß Klein</SectionHeader>
+            <SectionHeader>معلمين مركز Groß Klein</SectionHeader>
                 <div className='all-teams'>
                     {Groß_Klein} 
                 </div>  

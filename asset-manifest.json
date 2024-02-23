@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alhuda/static/css/main.0aac8fc8.css",
-    "main.js": "/Alhuda/static/js/main.77282916.js",
+    "main.css": "/Alhuda/static/css/main.99cbdb1b.css",
+    "main.js": "/Alhuda/static/js/main.961e2d56.js",
     "static/media/logo.png": "/Alhuda/static/media/logo.d256a07432881cec3afa.png",
     "static/media/popular-02.jpg": "/Alhuda/static/media/popular-02.4ccab5053dc3ac9400fb.jpg",
     "static/media/popular-01.jpg": "/Alhuda/static/media/popular-01.d591ee7091c3349e3472.jpg",
@@ -9,11 +9,11 @@
     "static/media/popular-03.jpg": "/Alhuda/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "static/media/photo1708409906.jpeg": "/Alhuda/static/media/photo1708409906.87362b56a23636ff9f5b.jpeg",
     "index.html": "/Alhuda/index.html",
-    "main.0aac8fc8.css.map": "/Alhuda/static/css/main.0aac8fc8.css.map",
-    "main.77282916.js.map": "/Alhuda/static/js/main.77282916.js.map"
+    "main.99cbdb1b.css.map": "/Alhuda/static/css/main.99cbdb1b.css.map",
+    "main.961e2d56.js.map": "/Alhuda/static/js/main.961e2d56.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aac8fc8.css",
-    "static/js/main.77282916.js"
+    "static/css/main.99cbdb1b.css",
+    "static/js/main.961e2d56.js"
   ]
 }

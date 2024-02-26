@@ -7,3 +7,33 @@
     margin-bottom: 25px;
 }
 }
+.button  {
+    font-size: 14px;
+    color: var(--color-light);
+    padding: 12px 25px;
+    border-radius: var(--border-radius-primary);
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+
+.primary-button  {
+    background-color: var(--color-primary);
+}
+
+.primary-button:hover {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+
+
+@media (max-width: 280px) {
+    .button {
+        font-size: 10px;
+        color: var(--color-light);
+        padding: 8px 15px;
+        border-radius: var(--border-radius-primary);
+        letter-spacing: 0.5px;
+        transition: all .3s;
+    }
+}

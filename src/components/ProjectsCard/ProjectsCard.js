@@ -1,5 +1,6 @@
 import './ProjectsCard.css'
-import { SecondaryButton } from '../index'
+import { Link } from 'react-router-dom'
+import {FaArrowCircleLeft } from "react-icons/fa";
 const ProjectsCard = (props) => {
     return (
         <div className='projectscard'>
@@ -7,7 +8,7 @@ const ProjectsCard = (props) => {
                 <img className='projectscard-image' src={props.image} alt="" />
                 <div className='projectscard-content'>
                     <h4 className='projectscard-title'>{props.title} </h4>
-                    <SecondaryButton>متابعة القراءة</SecondaryButton>
+                    <Link className='button secondary-button' to={`/${props.name}`}>متابعة القراءة &nbsp; &nbsp;<FaArrowCircleLeft /></Link>
                 </div>
             </div>
         </div>

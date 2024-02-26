@@ -1,8 +1,8 @@
 import './ContactButton.css'
-import {PrimaryButton} from '../../components/index'
+import { Link } from 'react-router-dom'
 const ContactButton = () => {
     return (
-        <div className='contact-button' ><PrimaryButton>تواصل معنا </PrimaryButton></div>
+        <div className='contact-button' ><Link className='button  primary-button' to = '/contact'>تواصل معنا </Link></div>
     )
 }
 

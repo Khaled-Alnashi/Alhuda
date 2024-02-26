@@ -28,7 +28,7 @@
 .navbar-collapse {
     margin-top: -20px;
 }
-.but .primary-button a{
+.but .primary-button{
     padding: 5px;
 }
 .but .primary-button{
@@ -36,7 +36,7 @@
     font-size: 15px;
 }
 @media (max-width: 768px) {
-    .but .primary-button {
-        margin: 15px 0px 15px 0;
+    .but{
+        margin: 0px -20px  15px 0;
     }
 }

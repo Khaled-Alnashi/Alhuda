@@ -3,7 +3,7 @@ import './Header.css'
 
 import logo from '../../assets/images/logo.png'
 
-import { NavItem, PrimaryButton, NavItemDropDown } from '../../components/index'
+import { NavItem, NavItemDropDown } from '../../components/index'
 
 
 const Header = () => {
@@ -35,7 +35,7 @@ const Header = () => {
                         </NavItemDropDown>
                         <NavItem><Link to="/#" className="nav-link ">التسجيل</Link></NavItem>
                         <NavItem><Link to="/contact" className="nav-link ">تواصل معنا</Link></NavItem>
-                        <div className='but'><PrimaryButton>تسجيل الدخول</PrimaryButton></div>
+                        <div className='but'><Link className='button  primary-button' to = '/contact'>تسجيل الدخول</Link></div>
                     </ul>
                 </div>
             </div>

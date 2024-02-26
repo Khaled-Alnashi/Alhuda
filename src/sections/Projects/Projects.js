@@ -3,7 +3,7 @@ import { ProjectsCard,SectionHeader,SectionWrapper } from '../../components/inde
 import ProjectsData from '../../Data/ProjectsData'
 const Projects = () => {
     const cards = ProjectsData.map(card => {
-        return <ProjectsCard key={card.id} image= {card.image} title= {card.title} />
+        return <ProjectsCard key={card.id} image= {card.image} title= {card.title} name={card.name} />
     }) 
     return (
         <>

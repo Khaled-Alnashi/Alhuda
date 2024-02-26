@@ -46,3 +46,29 @@
         max-width: 1000px
     }
 }
+.secondary-button{
+    font-size: 16px;
+    color: var(--color-light);
+    padding: 12px 25px;
+    border-radius: var(--border-radius-primary);
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    border: 1px solid var(--color-primary);
+}
+
+.secondary-button:hover {
+    border: 1px solid var(--color-light);
+    color: var(--color-primary);
+}
+
+@media (max-width: 280px) {
+    .secondary-button {
+        font-size: 10px;
+        color: var(--color-light);
+        padding: 8px 15px;
+        border-radius: var(--border-radius-primary);
+        letter-spacing: 0.5px;
+        transition: all .3s;
+    }
+
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Alhuda/static/css/main.f1057f18.css",
-    "main.js": "/Alhuda/static/js/main.8ac79a7c.js",
+    "main.js": "/Alhuda/static/js/main.d891a0d1.js",
     "static/media/logo.png": "/Alhuda/static/media/logo.d256a07432881cec3afa.png",
     "static/media/popular-02.jpg": "/Alhuda/static/media/popular-02.4ccab5053dc3ac9400fb.jpg",
     "static/media/popular-01.jpg": "/Alhuda/static/media/popular-01.d591ee7091c3349e3472.jpg",
@@ -10,10 +10,10 @@
     "static/media/photo1708409906.jpeg": "/Alhuda/static/media/photo1708409906.87362b56a23636ff9f5b.jpeg",
     "index.html": "/Alhuda/index.html",
     "main.f1057f18.css.map": "/Alhuda/static/css/main.f1057f18.css.map",
-    "main.8ac79a7c.js.map": "/Alhuda/static/js/main.8ac79a7c.js.map"
+    "main.d891a0d1.js.map": "/Alhuda/static/js/main.d891a0d1.js.map"
   },
   "entrypoints": [
     "static/css/main.f1057f18.css",
-    "static/js/main.8ac79a7c.js"
+    "static/js/main.d891a0d1.js"
   ]
 }

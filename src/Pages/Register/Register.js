@@ -69,7 +69,7 @@ const Register = () => {
         let regobj = { id, bierthday, gender, country,guardianname, email, phone,  address };
             if (IsValidate()) {
             //console.log(regobj);
-            fetch("https://github.com/Khaled-Alnashi/Alhuda/blob/gh-pages/db.json/user", {
+            fetch("https://github.com/Khaled-Alnashi/Alhuda/db.json", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regobj)

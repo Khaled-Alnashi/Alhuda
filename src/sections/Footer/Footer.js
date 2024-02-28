@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="col-lg-12">
 						<div className="footer-main">
 							<div className="row">
-								<div className="col-lg-6 col-md-6 col-xs-12">
+								<div className="col-lg-6 col-md-6 col-xs-12 footer">
                   <h3>عنوان المقر الرئيسي</h3>
                   <ul>
                     <li className='contact'>
@@ -16,7 +16,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-								<div className="col-lg-6 col-md-6 col-xs-12">
+								<div className="col-lg-6 col-md-6 col-xs-12 footer">
                   <h3>أوقات العمل</h3>
                   <ul className='time'>
                     <li><span>يوم الأحد : </span><span> 09:00 - 15:00</span>

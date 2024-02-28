@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--color-primary);
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: var(--border-radius-primary);
+    margin-top: 50px;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+.gender .app-check{
+    width: 15px;
+}
+.col-lg-6.inp{
+    margin-top: 0;
+    text-align: start;
+}
+
+.btn {
+    font-size: 14px;
+    color: var(--color-light);
+    padding: 12px 25px;
+    border-radius: var(--border-radius-primary);
+    letter-spacing: 0.5px;
+    transition: all .3s;
+}
+
+.btn-primary {
+    background-color:green;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+
+
+@media (max-width: 280px) {
+    .btn {
+        font-size: 10px;
+        color: var(--color-light);
+        padding: 8px 15px;
+        border-radius: var(--border-radius-primary);
+        letter-spacing: 0.5px;
+        transition: all .3s;
+    }
+}

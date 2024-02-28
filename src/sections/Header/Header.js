@@ -3,8 +3,7 @@ import './Header.css'
 
 import logo from '../../assets/images/logo.png'
 
-import { NavItem, NavItemDropDown } from '../../components/index'
-
+import {NavItem, NavItemDropDown} from '../../components/index'
 
 const Header = () => {
     document.addEventListener("click", (e) => {
@@ -33,9 +32,8 @@ const Header = () => {
                                 <li><Link to="/dates" className="dropdown-item ">التقويم </Link></li>
                             </ul>
                         </NavItemDropDown>
-                        <NavItem><Link to="/#" className="nav-link ">التسجيل</Link></NavItem>
+                        <NavItem><Link to="/register" className="nav-link ">التسجيل</Link></NavItem>
                         <NavItem><Link to="/contact" className="nav-link ">تواصل معنا</Link></NavItem>
-                        <div className='but'><Link className='button  primary-button' to = '/contact'>تسجيل الدخول</Link></div>
                     </ul>
                 </div>
             </div>

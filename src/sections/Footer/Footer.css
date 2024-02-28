@@ -63,14 +63,14 @@ footer p a:hover {
 }
 
 @media (max-width: 767px) {
-    .col-lg-6{
+    .col-lg-6.footer{
         margin-bottom: calc( var(--margin-primary)/-2);
         font-size: smaller;
     }
-    .col-lg-6 h3{
+    .col-lg-6.footer h3{
         font-size: large;
     }
-    .col-lg-6 h3::after {
+    .col-lg-6.footer h3::after {
         top: calc(var(--margin-primary)/1.5);
     }
     

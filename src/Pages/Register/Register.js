@@ -74,7 +74,7 @@ const Register = () => {
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regobj)
             }).then((res) => {
-                toast.success('تم التسجيل بنجاح سوف نتواصل معك قريبا.')
+                toast.success('تم التسجيل بنجاح سوف نتواصل معك قريبا')
                 navigate('/');
             }).catch((err) => {
                 toast.error('فشل التسجيل :' + err.message);

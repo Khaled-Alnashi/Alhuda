@@ -69,12 +69,12 @@ const Register = () => {
         let regobj = { id, bierthday, gender, country,guardianname, email, phone,  address };
             if (IsValidate()) {
             //console.log(regobj);
-            fetch("https://khaled-alnashi.github.io/Alhuda/db.json/user", {
+            fetch("https://github.com/Khaled-Alnashi/Alhuda/blob/gh-pages/db.json/user", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regobj)
             }).then((res) => {
-                toast.success('مسجل بنجاح.')
+                toast.success('تم التسجيل بنجاح سوف نتواصل معك قريبا.')
                 navigate('/');
             }).catch((err) => {
                 toast.error('فشل التسجيل :' + err.message);

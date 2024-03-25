@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alhuda/static/css/main.9dfb7539.css",
-    "main.js": "/Alhuda/static/js/main.2c1d846a.js",
+    "main.css": "/Alhuda/static/css/main.b9713278.css",
+    "main.js": "/Alhuda/static/js/main.8fb6c4cc.js",
     "static/media/sliderimag-1.jpeg": "/Alhuda/static/media/sliderimag-1.572e5bd67d9ea982dcf4.jpeg",
     "static/media/sliderimag-3.jpeg": "/Alhuda/static/media/sliderimag-3.de68f8f9fa87c46d66d6.jpeg",
     "static/media/sliderimag-5.jpeg": "/Alhuda/static/media/sliderimag-5.fbf9b65c6e353f4d18a8.jpeg",
@@ -14,11 +14,11 @@
     "static/media/popular-03.jpg": "/Alhuda/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "static/media/photo1708409906.jpeg": "/Alhuda/static/media/photo1708409906.87362b56a23636ff9f5b.jpeg",
     "index.html": "/Alhuda/index.html",
-    "main.9dfb7539.css.map": "/Alhuda/static/css/main.9dfb7539.css.map",
-    "main.2c1d846a.js.map": "/Alhuda/static/js/main.2c1d846a.js.map"
+    "main.b9713278.css.map": "/Alhuda/static/css/main.b9713278.css.map",
+    "main.8fb6c4cc.js.map": "/Alhuda/static/js/main.8fb6c4cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dfb7539.css",
-    "static/js/main.2c1d846a.js"
+    "static/css/main.b9713278.css",
+    "static/js/main.8fb6c4cc.js"
   ]
 }

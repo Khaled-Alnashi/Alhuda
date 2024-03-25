@@ -6,4 +6,5 @@ export { default as Team } from './Team/Team'
 export { default as ContactButton } from './ContactButton/ContactButton'
 export { default as ContactForm } from './ContactForm/ContactForm'
 export { default as Footer } from './Footer/Footer'
-
+export { default as ToUp } from './ToUp/ToUp'
+export { default as Sliderimages } from './Sliderimages/Sliderimages'

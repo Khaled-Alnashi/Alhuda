@@ -3,14 +3,14 @@ import './App.css'
 import { Container } from './components/index'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Header, Footer } from './sections/index'
+import { Header, Footer,ToUp} from './sections/index'
 import { Home, AllTeams, Activities, Centers, Dates, Arabic, Islam, Quran, Contact, Register} from'./Pages/index'
 const App = () => {
     return (
         <>
             <ToastContainer theme='colored' position='top-center'></ToastContainer>
             <Router basename={'/Alhuda'}>
-                <Header />
+                <Header id="up"/>
                 <Container>
                     <Routes>
                         <Route path='/' element={<Home />} />
@@ -25,6 +25,7 @@ const App = () => {
                         <Route path='/register' element={<Register />} />
                     </Routes>
                 </Container>
+                <ToUp/>
                 <Footer />
             </Router>
         </>

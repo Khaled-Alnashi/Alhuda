@@ -1,8 +1,9 @@
 import './Home.css'
-import {Hero, Goals, Team, Projects,ContactButton } from '../../sections/index'
+import {Hero, Goals, Team, Projects,ContactButton ,Sliderimages} from '../../sections/index'
 const Home = () => {
     return (
         <>
+            <Sliderimages />
             <Hero />
             <Goals />
             <Projects />

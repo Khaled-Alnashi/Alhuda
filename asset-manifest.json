@@ -1,7 +1,12 @@
 {
   "files": {
-    "main.css": "/Alhuda/static/css/main.f1057f18.css",
-    "main.js": "/Alhuda/static/js/main.e0d8bbbc.js",
+    "main.css": "/Alhuda/static/css/main.9dfb7539.css",
+    "main.js": "/Alhuda/static/js/main.2c1d846a.js",
+    "static/media/sliderimag-1.jpeg": "/Alhuda/static/media/sliderimag-1.572e5bd67d9ea982dcf4.jpeg",
+    "static/media/sliderimag-3.jpeg": "/Alhuda/static/media/sliderimag-3.de68f8f9fa87c46d66d6.jpeg",
+    "static/media/sliderimag-5.jpeg": "/Alhuda/static/media/sliderimag-5.fbf9b65c6e353f4d18a8.jpeg",
+    "static/media/sliderimag-4.jpeg": "/Alhuda/static/media/sliderimag-4.b7b6f8a7a612b99b3092.jpeg",
+    "static/media/sliderimag-2.jpeg": "/Alhuda/static/media/sliderimag-2.c772b83ca09894159c58.jpeg",
     "static/media/logo.png": "/Alhuda/static/media/logo.d256a07432881cec3afa.png",
     "static/media/popular-02.jpg": "/Alhuda/static/media/popular-02.4ccab5053dc3ac9400fb.jpg",
     "static/media/popular-01.jpg": "/Alhuda/static/media/popular-01.d591ee7091c3349e3472.jpg",
@@ -9,11 +14,11 @@
     "static/media/popular-03.jpg": "/Alhuda/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "static/media/photo1708409906.jpeg": "/Alhuda/static/media/photo1708409906.87362b56a23636ff9f5b.jpeg",
     "index.html": "/Alhuda/index.html",
-    "main.f1057f18.css.map": "/Alhuda/static/css/main.f1057f18.css.map",
-    "main.e0d8bbbc.js.map": "/Alhuda/static/js/main.e0d8bbbc.js.map"
+    "main.9dfb7539.css.map": "/Alhuda/static/css/main.9dfb7539.css.map",
+    "main.2c1d846a.js.map": "/Alhuda/static/js/main.2c1d846a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1057f18.css",
-    "static/js/main.e0d8bbbc.js"
+    "static/css/main.9dfb7539.css",
+    "static/js/main.2c1d846a.js"
   ]
 }

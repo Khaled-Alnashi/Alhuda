@@ -11,8 +11,8 @@ const Sliderimages = () => {
         setWidth(carouselRef.current.scrollWidth-carouselRef.current.offsetWidth)
     },[])
     return (
-        <SectionWrapper>
-            <div>
+        <div className='Sliderimages'>
+            <SectionWrapper>
                 <motion.div ref={ carouselRef} className='carousel' whileTap={{cursor:"grabbing"}}>
                     <motion.div drag="x" dragConstraints={{left:0 ,right: width}} className='inner-carousel'>
                         {SliderimagesDate.map((image) => (
@@ -22,8 +22,8 @@ const Sliderimages = () => {
                         ))}
                     </motion.div>
                 </motion.div>
-            </div>
-        </SectionWrapper>
+            </SectionWrapper>
+        </div>
     )
 }
 

@@ -14,9 +14,6 @@
     font-weight: var(--font-weight-normal);
 }
 @media (max-width: 768px) {
-    .hero{
-        margin-top: 100px;
-    }
     .hero-main {
             padding: calc(var(--padding-primary)/5);
         }
